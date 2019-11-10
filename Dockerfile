@@ -8,7 +8,7 @@ RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
 && rm -rf /v2ray/v2ray.zip \
 && rm -rf /v2ray/config.json \
 && apk del .build-deps
+
 ADD /config/server_config.json /v2ray/config.json
 
-EXPOSE 80
-CMD [ "/v2ray/v2ray", "-config=/v2ray/config.json" ]
+CMD /v2ray/v2ray
