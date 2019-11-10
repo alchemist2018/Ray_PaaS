@@ -5,6 +5,7 @@ var direct = 'DIRECT';
 var hasOwnProperty = Object.hasOwnProperty;
 
 var domains = {
+  "arukas.io": 1,
   "*.google": 1,
   "domains.google": 1,
   "share.dmhy.org": 1,
