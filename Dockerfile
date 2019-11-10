@@ -9,7 +9,6 @@ RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
 && rm -rf /v2ray/config.json \
 && apk del .build-deps
 ADD /config/server_config.json /v2ray/config.json
-RUN chmod -R 777 /v2ray
+
 EXPOSE 80
 CMD [ "/v2ray/v2ray", "-config=/v2ray/config.json" ]
-USER 1000
