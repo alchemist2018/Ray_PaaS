@@ -13,6 +13,6 @@ ADD /config/server_config.json /v2ray/config.json
 
 EXPOSE 80
 
-CMD [ "/v2ray/v2ray -config=/v2ray/config.json" ]
+CMD [ "/v2ray/v2ray", "-config=/v2ray/config.json" ]
 
 USER 1000
