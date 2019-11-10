@@ -1,0 +1,52 @@
+{
+  "inbounds": [    
+    {
+    "port": 8080,
+    "listen": "127.0.0.1",
+    "protocol": "http",
+    "settings": {
+      "timeout": 0
+      }
+    },
+    {
+    "port": 1080,
+    "listen": "127.0.0.1",
+    "protocol": "socks",
+    "settings": {
+      "auth": "noauth"
+      }
+    }
+  ],
+
+  "outbounds": [{
+      "mux":{
+        "concurrency":8,
+        "enabled":true
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "***",
+            "port": 80,
+            "users": [
+              {
+                "id": "f5d50d2f-f3da-41bf-af4f-b29aa2d3d71a",
+                "alterId": 4
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "aes-128-gcm",
+        "wsSettings": {
+          "headers":{
+            "Host":"***"
+          },
+          "path": "/"
+        }
+      }
+  }]
+}
