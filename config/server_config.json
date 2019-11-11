@@ -6,7 +6,6 @@
         "settings": {
             "clients": [{
                 "id": "f5d50d2f-f3da-41bf-af4f-b29aa2d3d71a",
-                "alterId": 4
             }],
             "disableInsecureEncryption": true
         },
