@@ -45,8 +45,7 @@
         "wsSettings": {
           "headers":{
             "Host":"***"
-          },
-          "path": "/"
+          }
         }
       }
   }]
