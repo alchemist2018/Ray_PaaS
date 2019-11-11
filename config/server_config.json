@@ -11,7 +11,7 @@
             "disableInsecureEncryption": true
         },
         "streamSettings": {
-            "network": "http"
+            "network": "h2c"
         }
     }],
     "outbounds": [{
