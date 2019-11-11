@@ -32,6 +32,8 @@
             "users": [
               {
                 "id": "f5d50d2f-f3da-41bf-af4f-b29aa2d3d71a",
+//                "security": "aes-128-gcm",
+                "security": "chacha20-poly1305",
                 "alterId": 4
               }
             ]
@@ -40,7 +42,6 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "aes-128-gcm",
         "wsSettings": {
           "headers":{
             "Host":"***"
