@@ -3,18 +3,12 @@
     {
     "port": 8080,
     "listen": "127.0.0.1",
-    "protocol": "http",
-    "settings": {
-      "timeout": 0
-      }
+    "protocol": "http"
     },
     {
     "port": 1080,
     "listen": "127.0.0.1",
-    "protocol": "socks",
-    "settings": {
-      "auth": "noauth"
-      }
+    "protocol": "socks"
     }
   ],
 
