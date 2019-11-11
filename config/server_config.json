@@ -11,7 +11,7 @@
             "disableInsecureEncryption": true
         },
         "streamSettings": {
-            "network": "h2c"
+            "network": "ws"
         }
     }],
     "outbounds": [{
@@ -22,7 +22,6 @@
     }],
     "dns":{
         "servers":[
-            "8.8.8.8",
             "1.1.1.1"
         ]            
     }
