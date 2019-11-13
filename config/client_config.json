@@ -33,6 +33,7 @@
       },
       "streamSettings": {
         "network": "ws",
+//        "security": "tls",
         "wsSettings": {
           "headers":{
             "Host":"***"
