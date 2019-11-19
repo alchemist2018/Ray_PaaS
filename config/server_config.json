@@ -14,14 +14,6 @@
         }
     }],
     "outbounds": [{
-        "protocol": "freedom",
-        "settings": {
-            "domainStrategy": "UseIPv4"
-        }
-    }],
-    "dns":{
-        "servers":[
-            "1.1.1.1"
-        ]            
-    }
+        "protocol": "freedom"
+    }]
 }
