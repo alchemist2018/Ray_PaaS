@@ -5,7 +5,7 @@ var direct = 'DIRECT';
 var hasOwnProperty = Object.hasOwnProperty;
 
 var domains = {
-    "cloudflare.com": 1,
+    "jetbrains.com": 1,
     "v2ray.com": 1,
     "heroku.com": 1,
     "arukas.io": 1,
