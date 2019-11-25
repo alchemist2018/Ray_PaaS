@@ -4,7 +4,7 @@
         "listen": "0.0.0.0",
         "protocol": "shadowsocks",
         "settings": {
-            "method": "chacha20-ietf-poly1305",
+            "method": "aes-128-gcm",
             "password": "wojiamimashiduoshao"
         },
         "streamSettings": {
