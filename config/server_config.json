@@ -2,11 +2,10 @@
     "inbounds": [{
         "port": 80,
         "listen": "0.0.0.0",
-        "protocol": "vmess",
+        "protocol": "shadowsocks",
         "settings": {
-            "clients": [{
-                "id": "f5d50d2f-f3da-41bf-af4f-b29aa2d3d71a"
-            }]
+            "method": "chacha20",
+            "password": "wojiamimashiduoshao"
         },
         "streamSettings": {
             "network": "ws"
