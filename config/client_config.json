@@ -13,17 +13,14 @@
   ],
 
   "outbounds": [{
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
             "address": "***",
             "port": 80,
-            "users": [
-              {
-                "id": "f5d50d2f-f3da-41bf-af4f-b29aa2d3d71a"
-              }
-            ]
+            "method": "aes-128-gcm",
+            "password": "wojiamimashiduoshao"
           }
         ]
       },
