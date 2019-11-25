@@ -19,7 +19,7 @@
           {
             "address": "***",
             "port": 80,
-            "method": "aes-128-gcm",
+            "method": "chacha20-ietf-poly1305",
             "password": "wojiamimashiduoshao"
           }
         ]
