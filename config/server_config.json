@@ -1,17 +1,29 @@
 {
-    "inbounds": [{
-        "port": 80,
-        "listen": "0.0.0.0",
-        "protocol": "shadowsocks",
-        "settings": {
-            "method": "chacha20-ietf-poly1305",
-            "password": "wojiamimashiduoshao"
-        },
-        "streamSettings": {
-            "network": "ws"
-        }
-    }],
-    "outbounds": [{
-        "protocol": "freedom"
-    }]
+  "inbounds": [{
+      "port": 80,
+      "listen": "0.0.0.0",
+      "protocol": "shadowsocks",
+      "settings": {
+          "method": "chacha20-ietf-poly1305",
+          "password": "wojiamimashiduoshao"
+      },
+      "streamSettings": {
+          "network": "ws"
+      }
+  }],
+  "dns": {
+      "hosts": {
+        "geosite:category-ads-all": "127.0.0.1"
+      },
+      "servers": [
+        "208.67.222.222",
+        "8.8.8.8"
+      ]
+  },
+  "outbounds": [{
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIPv4"
+    }
+  }]
 }
