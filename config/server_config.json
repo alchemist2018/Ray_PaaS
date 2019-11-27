@@ -11,16 +11,7 @@
           "network": "ws"
       }
   }],
-  "dns": {
-      "servers": [
-        "1.1.1.1",
-        "8.8.8.8"
-      ]
-  },
   "outbounds": [{
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "UseIPv4"
-    }
+      "protocol": "freedom"
   }]
 }
