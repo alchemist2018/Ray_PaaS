@@ -8,5 +8,3 @@ Build xxRay on PaaS.
 2. Heroku
 
 3. Kubesail
-
-4. Openshift
