@@ -1,14 +1,8 @@
 {
     "dns": {
         "servers": [
-            {
-                "address": "208.67.222.222",
-                "port": 443
-            },
-            {
-                "address": "208.67.220.220",
-                "port": 443
-            }
+            "8.8.4.4",
+            "1.0.0.1"
         ]
     },
     "inbounds": [
@@ -29,7 +23,7 @@
         {
             "protocol": "freedom",
             "settings": {
-                "domainStrategy": "UseIP"
+                "domainStrategy": "UseIPv4"
             }
         }
     ]
