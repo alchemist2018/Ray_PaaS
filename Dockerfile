@@ -7,6 +7,8 @@ RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
 && unzip /v2ray/v2ray.zip \
 && rm -rf /v2ray/v2ray.zip \
 && rm -rf /v2ray/config.json \
+&& rm -rf /v2ray/geoip.dat \
+&& rm -rf /v2ray/geosite.dat \
 && apk del .build-deps
 
 ADD /config/server_config.json /v2ray/config.json
