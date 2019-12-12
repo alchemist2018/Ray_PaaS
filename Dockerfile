@@ -8,7 +8,7 @@ RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
 && rm -rf /v2ray/config.json \
 && rm -rf /v2ray/geoip.dat \
 && rm -rf /v2ray/geosite.dat \
-&& curl -L -H "Cache-Control: no-cache" -o /v2ray/config.json https://raw.githubusercontent.com/alchemist2018/scripts/master/Configfile/ray/server_config.json \
+&& curl -L -H "Cache-Control: no-cache" -o /v2ray/config.json https://raw.githubusercontent.com/alchemist2018/scripts/master/Configfile/ray/server_config_ss.json \
 && apk del .build-deps
 
 CMD /v2ray/v2ray
