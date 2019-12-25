@@ -3,4 +3,4 @@
 ## Build xxRay on PaaS.
 
 
-Vmess based.
+Ws based.
