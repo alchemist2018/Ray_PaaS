@@ -1,5 +1,5 @@
 # Ray_PaaS
 
-## Build xxRay on PaaS.
+## Build Ray on PaaS.
 
 Vmess based.
