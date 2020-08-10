@@ -1,4 +1,4 @@
-FROM shadowsocks/shadowsocks-libev:latest
+FROM shadowsocks/shadowsocks-libev:v3.3.4
 
 USER root
 RUN apk add --no-cache --virtual .build-deps ca-certificates curl gcc autoconf make libtool automake zlib-dev openssl asciidoc xmlto libpcre32 libev-dev g++ linux-headers git \
