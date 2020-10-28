@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: /bk/bk_linux_amd64 wsserver -l :$PORT -p W@24No
+  web: /bk/bk_linux_amd64 wsserver -l :$PORT -p W@24No --tcpTimeout 60
