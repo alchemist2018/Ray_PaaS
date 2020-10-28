@@ -6,4 +6,4 @@ RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
 && chmod +x /bk/bk_linux_amd64 \
 && apk del .build-deps
 
-CMD /bk/bk_linux_amd64 wsserver -l :80 -p W@24No --tcpTimeout 60
+CMD /bk/bk_linux_amd64 wsserver -l :80 -p W@24No --tcpTimeout 30
