@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: sed -i "s/80/$PORT/g" /v2ray/config.json && /v2ray/v2ray
+  web: /bk/bk_linux_amd64 wsserver -l :$PORT -p wojiamimashiduoshao
