@@ -2,4 +2,4 @@
 
 ## Build Ray on PaaS.
 
-Vmess based.
+Vless based.
