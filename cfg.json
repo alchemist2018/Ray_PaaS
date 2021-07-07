@@ -24,8 +24,13 @@
         {
             "protocol": "freedom",
             "settings": {
-                "domainStrategy": "UseIPv4"
+                "domainStrategy": "UseIP"
             }
         }
-    ]
+    ],
+    "dns": {
+        "servers": [
+            "8.8.8.8"
+        ]
+    }
 }
