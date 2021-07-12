@@ -5,7 +5,7 @@
             "listen": "0.0.0.0",
             "protocol": "shadowsocks",
             "settings": {
-                "method": "chacha20-poly1305",
+                "method": "chacha20-ietf-poly1305",
                 "ota": false,
                 "password": "qy940923"
             },
