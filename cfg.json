@@ -3,13 +3,15 @@
         {
             "port": 80,
             "listen": "0.0.0.0",
-            "protocol": "trojan",
+            "protocol": "vmess",
             "settings": {
                 "clients": [
                     {
-                        "password": "qy940923"
+                        "id": "11c4bcb9-36cf-4ade-8385-d42605cba2b5",
+                        "alterId": 0
                     }
-                ]
+                ],
+                "disableInsecureEncryption": true
             },
             "streamSettings": {
                 "network": "ws",
